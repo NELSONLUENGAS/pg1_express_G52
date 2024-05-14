@@ -1,0 +1,24 @@
+POST http://127.0.0.1:3000/api/add
+Content-Type: application/json
+
+{
+    "destino": "Valdivia", 
+    "presupuesto": 150000
+}
+
+###
+POST http://127.0.0.1:3000/api/add-equipment
+Content-Type: application/json
+
+{
+    "nombre": "Maleta (De Perros)" 
+}
+
+###
+GET  http://127.0.0.1:3000/api/get-trips
+Content-Type: application/json
+
+###
+GET  http://127.0.0.1:3000/api/get-equipments
+Content-Type: application/json
+
